@@ -1,0 +1,13 @@
+# Editors
+.idea
+*.iml
+
+config.json
+
+# Dependency directory
+node_modules
+
+# ignore lockfiles
+yarn.lock
+package-lock.json
+
