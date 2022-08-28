@@ -27,8 +27,14 @@
     "util-deprecate": "^1.0.2",
     "ws": "^8.8.1"
   },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "node ./node_modules/nodemon/bin/nodemon.js node start",
+    "deploy": "node deploy-commands.js"
   },
   "keywords": [],
   "author": "",
